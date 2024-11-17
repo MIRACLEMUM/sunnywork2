@@ -48,11 +48,17 @@
     display: flex;
     flex-wrap: wrap;
     gap: 20px;
+  
   }
   
   header .nav-links a {
     color: white;
     font-weight: bold;
+  
+  }
+
+  header .nav-links a:hover{
+    background-color:blue;
   }
   
   /* Hero Section */
@@ -268,7 +274,6 @@
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Adds a subtle shadow */
 }
 
-  
   /* Footer */
   footer {
     background: #2c3e50;
